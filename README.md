@@ -61,6 +61,8 @@ Para ejecutar las pruebas en modo headless, utiliza el siguiente comando:
 bash
 Copiar código
 npx cypress run
+
+
 Contacto
 
 eduardojgriboldi@gmail.com
