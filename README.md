@@ -1,70 +1,40 @@
-# practicas2023
-Proyecto de Pruebas Automatizadas con Cypress
-Este repositorio contiene un conjunto de pruebas automatizadas utilizando Cypress para verificar la funcionalidad de una calculadora simple, una página de Mercado Libre y una tienda de mascotas (Petshop). A continuación, se detallan los objetivos de cada test, las tecnologías y dependencias utilizadas, y las instrucciones para la instalación y ejecución de las pruebas.
+# Proyecto de Pokedex con HTML, CSS y JavaScript
 
-Tecnologías Utilizadas
-Lenguaje: JavaScript
-Framework: Cypress
-Objetivos del Test
-1. Test de Calculadora
-Este test tiene como objetivo verificar el correcto funcionamiento de una calculadora simple. Es ideal para practicar y comprobar funcionalidades básicas de Cypress.
+Este repositorio contiene un proyecto de una **Pokedex**, que utiliza **HTML, CSS y JavaScript** para realizar llamadas a la API de **PokeAPI**. Este proyecto es una excelente práctica para aprender a realizar llamadas a API y funcionalidades relacionadas, ideal para principiantes en HTML.
 
-2. Test de Mercado Libre
-Este test verifica el proceso de inicio de sesión de un usuario en Mercado Libre y, utilizando la funcionalidad de testIsolation, asegura que el usuario pueda navegar en la página con la sesión iniciada previamente.
+## Tecnologías Utilizadas
+- **Lenguaje:** JavaScript
+- **Framework:** HTML y CSS
 
-3. Test de Petshop
-Este test se enfoca en verificar la funcionalidad del teclado en una tienda de mascotas, asegurando que la accesibilidad y la interacción mediante teclado funcionen correctamente.
+## Objetivo del Proyecto
+El objetivo de este proyecto es crear una Pokedex que obtenga datos de la API de PokeAPI. Esto incluye practicar llamadas a API y manejar la respuesta para mostrar información de los Pokémon en la interfaz. Es una buena práctica para aquellos que están comenzando con HTML y desean mejorar sus habilidades en JavaScript y CSS.
 
-Estructura del Proyecto
-tests/calculadora.spec.js: Contiene los tests relacionados con la calculadora.
-tests/mercadolibre.spec.js: Contiene los tests relacionados con Mercado Libre.
-tests/petshop.spec.js: Contiene los tests relacionados con la tienda de mascotas.
-locators/: Carpeta que contiene los locators encapsulados usados en cada test.
-Dependencias
-cypress-real-events
-testIsolation
-Instalación
-Prerrequisitos
-Asegúrate de tener Node.js y npm instalados en tu sistema. Puedes descargar Node.js desde aquí.
+## Archivos del Proyecto
+- **index.html:** Contiene la estructura principal del HTML para la Pokedex.
+- **script.js:** Contiene la lógica para realizar las llamadas a la API y manejar la interacción con el usuario.
+- **style.css:** Contiene los estilos CSS para el diseño y apariencia de la Pokedex.
 
-Pasos de Instalación
-Clonar el repositorio
+## Instalación
 
-Terminal
-Copiar código
-git clone https://github.com/ChepeGR/practicas2023.git
-cd tu-repositorio
-Instalar Cypress y dependencias
+### Prerrequisitos
+Asegúrate de tener **Node.js** y **npm** instalados en tu sistema. Puedes descargar Node.js desde [aquí](https://nodejs.org/).
 
-Terminal
-Copiar código
-npm install cypress --save-dev
-npm install cypress-real-events --save-dev
-Configurar testIsolation
-En el archivo de configuración de Cypress (cypress.config.js), añade la siguiente línea:
+### Pasos de Instalación
+1. **Clonar el repositorio**
+    ```bash
+    git clone https://github.com/ChepeGR/pokedex.git
+    cd pokedex
+    ```
 
-javascript
-Copiar código
-module.exports = {
-  e2e: {
-    testIsolation: false
-  }
-}
-Ejecutar Pruebas
-Para abrir la interfaz de usuario de Cypress y ejecutar las pruebas, utiliza el siguiente comando:
+2. **Instalar dependencias**
+    Este proyecto no requiere instalaciones adicionales de Node.js ni npm, ya que utiliza HTML, CSS y JavaScript puro. Simplemente clona el repositorio y abre el archivo `index.html` en tu navegador.
 
-bash
-Copiar código
-npx cypress open
-Para ejecutar las pruebas en modo headless, utiliza el siguiente comando:
+## Ejecutar el Proyecto
+- **Abrir el archivo HTML:** Abre el archivo `index.html` en tu navegador preferido para ver y utilizar la Pokedex.
 
-bash
-Copiar código
-npx cypress run
+## Contacto
+Para cualquier consulta o contribución, por favor contacta al administrador del repositorio:
 
-
-Contacto
-
-eduardojgriboldi@gmail.com
-www.linkedin.com/in/eduardo-garcia-riboldi-36803a222
-https://github.com/ChepeGR
+- **Email:** eduardojgriboldi@gmail.com
+- **LinkedIn:** [Eduardo García Riboldi](https://www.linkedin.com/in/eduardogarc%C3%ADariboldi)
+- **GitHub:** [ChepeGR](https://github.com/ChepeGR)
